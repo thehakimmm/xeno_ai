@@ -1,7 +1,7 @@
 export const pageStyles = {
-  container: "flex h-screen bg-black",
-  mainContent: "flex-1 flex flex-col transition-all duration-300",
-  messagesContainer: "flex-1 overflow-y-auto scroll-smooth",
+  container: "flex h-screen bg-black overflow-hidden",
+  mainContent: "flex-1 flex flex-col transition-all duration-300 min-w-0 overflow-hidden",
+  messagesContainer: "flex-1 overflow-y-auto overflow-x-hidden scroll-smooth",
   
   emptyState: {
     container: "flex flex-col items-center justify-center h-full text-center space-y-12 animate-fade-in px-4",
