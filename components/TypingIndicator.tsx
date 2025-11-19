@@ -9,12 +9,12 @@ export default function TypingIndicator() {
       <div className={typingIndicatorStyles.wrapper}>
         {/* Avatar */}
         <div className={typingIndicatorStyles.avatar}>
-          <div className="relative w-full h-full">
+          <div className="relative w-full h-full rounded-full overflow-hidden">
             <Image
               src="/images/logo/xeno.jpg"
               alt="XenoAI"
               fill
-              className="object-cover"
+              className="object-cover rounded-full"
             />
           </div>
         </div>

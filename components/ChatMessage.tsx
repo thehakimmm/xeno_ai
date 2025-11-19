@@ -33,12 +33,12 @@ export default function ChatMessage({ message, onCopy }: ChatMessageProps) {
           {isUser ? (
             <span className={chatMessageStyles.avatarText}>Y</span>
           ) : (
-            <div className="relative w-full h-full">
+            <div className="relative w-full h-full rounded-full overflow-hidden">
               <Image
                 src="/images/logo/xeno.jpg"
                 alt="XenoAI"
                 fill
-                className="object-cover"
+                className="object-cover rounded-full"
               />
             </div>
           )}

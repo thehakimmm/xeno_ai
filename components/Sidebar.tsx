@@ -219,7 +219,7 @@ export default function Sidebar({
                   src="/images/logo/xeno.jpg"
                   alt="User"
                   fill
-                  className="object-cover"
+                  className="object-cover rounded-full"
                 />
               </div>
               <span className={sidebarStyles.footer.userName}>XenoAI User</span>
