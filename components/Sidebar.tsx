@@ -62,7 +62,7 @@ export default function Sidebar({
                     src="/images/logo/xeno.jpg"
                     alt="Xeno Industry"
                     fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-300"
+                    className="object-cover rounded-lg group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
                 <div className="flex flex-col">

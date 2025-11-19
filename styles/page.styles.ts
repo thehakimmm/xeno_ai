@@ -6,7 +6,7 @@ export const pageStyles = {
   emptyState: {
     container: "flex flex-col items-center justify-center h-full text-center space-y-12 animate-fade-in px-4",
     logoWrapper: "relative w-40 h-40 rounded-3xl overflow-hidden group cursor-pointer transform hover:scale-110 transition-all duration-500",
-    logoImage: "w-full h-full object-cover relative z-10 group-hover:scale-110 transition-transform duration-700",
+    logoImage: "w-full h-full object-cover relative z-10 rounded-3xl group-hover:scale-110 transition-transform duration-700",
     glowEffect: "absolute inset-0 bg-gradient-to-br from-red-600/40 via-red-500/30 to-transparent blur-3xl group-hover:blur-[60px] transition-all duration-500",
     textContainer: "space-y-3",
     logo: "w-40 h-40 rounded-3xl bg-gradient-to-br from-black to-red-600 flex items-center justify-center shadow-2xl shadow-red-900/50",

@@ -7,7 +7,7 @@ export const chatGPTHeaderStyles = {
   
   brandContainer: "flex items-center gap-4 group cursor-pointer",
   logoImage: "w-9 h-9 rounded-full overflow-hidden ring-4 ring-red-600/30 group-hover:ring-red-600/50 transition-all duration-300 group-hover:scale-110",
-  logoImg: "w-full h-full object-cover",
+  logoImg: "w-full h-full object-cover rounded-full",
   textContainer: "flex flex-col gap-0.5",
   
   brandName: "text-lg font-black bg-gradient-to-r from-white to-red-500 bg-clip-text text-transparent tracking-tight group-hover:tracking-wide transition-all duration-300",
