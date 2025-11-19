@@ -38,6 +38,7 @@ const SUGGESTIONS = [
 ];
 
 export default function Home() {
+  // Xeno Industry AI - Build v1.1
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false); // Start closed - icon bar visible
